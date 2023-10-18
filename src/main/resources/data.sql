@@ -1,0 +1,12 @@
+INSERT INTO book (title, author, publication_year) VALUES ('1984', 'George Orwell', 1949);
+INSERT INTO book (title, author, publication_year) VALUES ('To Kill a Mockingbird', 'Harper Lee', 1960);
+INSERT INTO book (title, author, publication_year) VALUES ('Brave New World', 'Aldous Huxley', 1932);
+INSERT INTO book (title, author, publication_year) VALUES ('The Great Gatsby', 'F. Scott Fitzgerald', 1925);
+INSERT INTO book (title, author, publication_year) VALUES ('Dune', 'Frank Herbert', 1965);
+INSERT INTO book (title, author, publication_year) VALUES ('Moby-Dick', 'Herman Melville', 1851);
+INSERT INTO book (title, author, publication_year) VALUES ('The Catcher in the Rye', 'J.D. Salinger', 1951);
+INSERT INTO book (title, author, publication_year) VALUES ('The Hobbit', 'J.R.R. Tolkien', 1937);
+INSERT INTO book (title, author, publication_year) VALUES ('Fahrenheit 451', 'Ray Bradbury', 1953);
+INSERT INTO book (title, author, publication_year) VALUES ('The Da Vinci Code', 'Dan Brown', 2003);
+INSERT INTO book (title, author, publication_year) VALUES ('Sapiens', 'Yuval Noah Harari', 2011);
+INSERT INTO book (title, author, publication_year) VALUES ('The Hitchhiker''s Guide to the Galaxy', 'Douglas Adams', 1979);
