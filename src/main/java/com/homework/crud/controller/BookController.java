@@ -2,7 +2,6 @@ package com.homework.crud.controller;
 
 import com.homework.crud.model.Book;
 import com.homework.crud.service.BookService;
-import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -30,11 +29,6 @@ public class BookController {
   }
 
   @GetMapping("/books")
-  public List<Book> getAllBooks() {
-    return bookService.getAllBooks();
-  }
-
-  @GetMapping("/books/pageable")
   public Page<Book> getAllBooks(@PageableDefault(size = 6) Pageable pageable) {
     return bookService.getAllBooks(pageable);
   }
